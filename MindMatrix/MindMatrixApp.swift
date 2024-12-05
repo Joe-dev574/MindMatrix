@@ -25,7 +25,7 @@ struct MindMatrixApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ItemListScreen()
         }
         .modelContainer(sharedModelContainer)
     }
